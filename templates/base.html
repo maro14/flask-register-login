@@ -1,0 +1,15 @@
+<html>
+    <head>
+       <title>Home</title>
+       <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+       <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+
+    </head>
+    <body class="blockquote text-center">
+        <div><a href="/" class="lead" ><h2>Page Example for Log in and Register</h2></a></div>
+        <hr>
+
+        {% block content %}{% endblock %}
+    </body>
+
+</html>
